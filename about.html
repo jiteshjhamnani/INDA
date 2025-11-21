@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <script>
+        function opensidebar() {
+            document.getElementById("side").style.display = "block";
+            document.getElementById("body").style.display = "none";
+        }
+        function closesidebar() {
+            document.getElementById("side").style.display = "none";
+            document.getElementById("body").style.display = "block";
+        }
+
+    </script>
+    <div class="side" id="side">
+        <div>
+            <img onclick="closesidebar()" src="image/Frame 3925closebtn.png" alt="close-btn">
+        </div>
+        <div class="">
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="index.html">Home</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="about.html">About Us</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="projects.html">Our Projects</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="events.html">Live Events</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="teams.html">Teams</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="contact.html">Contact Us</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="join.html">Join Us</a>
+        </div>
+    </div>
+    <main id="body">
+        <div class=" sticky-top  bg-white">
+            <div class="container d-flex flex-row justify-content-between px-3 ">
+                <div class="w-150 h-80">
+                    <img src="image/Logo (1).png" class="img-fluid">
+                </div>
+                <div class="overflow-hidden mt-3 d-xl-block d-none">
+                    <a class="float-start d-block media-d-none text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="index.html">Home</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="about.html">About Us</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="projects.html">Our Projects</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="events.html">Live Events</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="teams.html">Teams</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="contact.html">Contact Us</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        class="join" href="join.html">
+                        <img src="image/Nav button.png" alt="join us">
+                    </a>
+                </div>
+                <div class="responsive d-xl-none mt-4 ">
+                    <div class="icon">
+                        <button class="icon  btn " onclick="opensidebar()">
+                            <img src="image/Hamburger.png" alt="Hamburger" class="img-fluid">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-1">
+
+            <div>
+                <div class="container d-flex flex-row ">
+                    <img class="m-lg-5 m-4" src="image/Lineline.png">
+                    <h2 class="mt-lg-4 mt-2">WH0 WE ARE</h2>
+                </div>
+                <div class="container me-2 text-danger">
+                    <h2>ABOUT</h2>
+                </div>
+                <div class="container d-xl-flex flex-xl-row">
+                    <p class="col-lg-6 m-3">INDA was created by three young professionals, Malek Saeed, Mamdouh Tello,
+                        and Sudarshan Thakur,
+                        who were convinced that the critical gap for smaller charities is the lack of capacity to design
+                        projects, raise grants, and agility in managing programs.
+                        Even the intractable endemic poverty and humanitarian crisis can be better addressed if the
+                        local organizations and professionals have the capability to respond to the situation, rather
+                        than co-opted by the ideas of philanthropists alone.The idea to create INDA culminated as a part
+                        of the Changemakers Programme of the Enterprise Centre at the University of East Anglia, United
+                        Kingdom winning the 'Do It' award. Malek Saeed, Mamdouh Tello, and Sudarshan Thakur believe that
+                        the problem faced by the world is immense, and young professionals need to come togetherto form
+                        a strong network to keep challenging the existing situation to find solutions with local
+                        organizations and professionals working at the cutting edge to bring change. They created INDA,
+                        to systematically enable organizations and their professionals to take up the challenge of the
+                        new era and find local and sustainable solutions.</p>
+                    <div class="container">
+                        <img class="img-fluid " src="image/About Us pictureabout-1.png" alt="about image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-2">
+            <div class="container d-flex flex-row ">
+                <img class="m-lg-5 m-4" src="image/Lineline.png">
+                <h2 class="mt-lg-4 mt-2">WHAT WE DO</h2>
+            </div>
+            <div class="container d-lg-flex">
+                <div>
+                    <div class="d-flex flex-row mb-lg-5 mt-3  m-3">
+                        <img class="m-2" src="image/Iconfamily-support.png" alt="family-support" width="28px"
+                            height="28px">
+                        <div>
+                            <h2>Family support</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row m-3">
+                        <img class="m-2" src="image/Iconbasic-amenities.png" alt="Basic amenities" width="28px"
+                            height="28px">
+
+                        <div>
+                            <h2>Basic amenities</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex flex-row mb-lg-5 mt-lg-3  m-3">
+                        <img class="m-2" src="image/Iconhealth-benefits.png" alt="Health benefits" width="28px"
+                            height="28px">
+                        <div>
+                            <h2>Health benefits</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row m-3">
+                        <img class="m-2" src="image/Icontherapy.png" alt="Therapy" width="28px" height="28px">
+                        <div>
+                            <h2>Therapy</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex flex-row  mb-lg-5 mt-lg-3 m-3 ">
+                        <img class="m-2" src="image/Iconeducation.png" alt="Education" width="28px" height="28px">
+                        <div>
+                            <h2>Education</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row m-3 ">
+                        <img class="m-2" src="image/Iconpublic-outreach.png" alt="Public outreach" width="28px"
+                            height="28px">
+                        <div>
+                            <h2>Public outreach</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                                elementum tristique.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container d-flex flex-row ">
+                <img class="m-lg-5 m-4" src="image/Lineline.png">
+                <h2 class="mt-lg-4 mt-2">OUR BELIEF</h2>
+            </div>
+            <div class="d-lg-flex m-5">
+                <div class="container">
+                    <h2 class="m-lg-5 text-danger">IDEAS CAN CHANGE THE WORLD.</h2>
+                    <div class="container m-lg-5 text-center">
+                        <p class="m-lg-5"> We believe that ideas are more powerful than resources.
+                            The major push should be on nurturing ideas to counter
+                            the status quo.We are a network or experienced and
+                            dedicated professional who are ready to reimagine
+                            situations for the betterment of the local community.</p>
+                    </div>
+                </div>
+                <div class="container ">
+                    <img class="img-fluid " src="image/image 5about-2.png">
+
+                </div>
+
+            </div>
+            <div class="d-lg-flex px-5 ">
+                <div class="container">
+                    <h2 class="m-lg-5 text-danger"> ORGANIZATIONS NEED TO BE CATALYSTS. </h2>
+                    <div class="container m-lg-5 text-center">
+                        <p class="m-lg-5 "> The ideas can eventuate only if there are carriers who align
+                            with the purpose of bringing change by pushing the boundaries of comfort and unraveling. The
+                            complexities involved in addressing the issues of poverty and inequality. The organisations
+                            working with the community at the grassroots should not only engage with empathy but also
+                            co-create solutions, mobilise resources, design strategies and mange programs. The poverty
+                            and i net quality challenge as well as . The humanitarian crisis can be best addressed whe
+                            local organisations are equipped to navigate the professionally managed grants and programs.
+                            I the absence of such capacities, communities tend to.</p>
+                    </div>
+                </div>
+                <div class="container d-flex align-items-center justify-content-center mt-5">
+                    <img class="img-fluid" src="image/image 10about-2.png">
+
+                </div>
+
+            </div>
+        </div>
+        <div class="about-3">
+            <div class="container d-flex flex-row  ">
+                <img class="m-lg-5 m-4" src="image/Lineline.png">
+                <h2 class="mt-lg-4 mt-2">OUR FOUNDER</h2>
+            </div>
+            <div class="container d-lg-flex ">
+
+                <div class="overflow-hidden m-3 ">
+                    <div class="container d-flex flex-row m-sm-5  div-5-1-1-img">
+                        <img class="img-fluid" src="image/Property 1=Default5.png">
+                        <img class="img-fluid" src="image/Property 1=Variant25.png">
+                        <img class="img-fluid" src="image/Property 1=Variant35.png">
+                    </div>
+                </div>
+                <div class="d-flex flex-column mt-lg-5 align-items-center">
+                    <div class="container mt-lg-5 me-5 overflow-hidden div-5 m-lg-5">
+                        <div class="container d-flex flex-column   mt-5 me-5 div-5-2-text">
+                            <div class=" me-5">
+                                <h1>Maleek Saeed </h1>
+                                <p class="">Lorem Ipsum is simply dummy text of the typesetting industry. Lorem
+                                    Ipsum
+                                    has
+                                    been the
+                                    industry's
+                                    standatext ever since when an unknown printer.
+                                </p>
+                            </div>
+                            <div class=" mt-5 mb-4 me-5">
+                                <h1>Mamdouh Tello</h1>
+                                <p>Lorem Ipsum is simply dummy text of the typesetting industry. Lorem Ipsum has
+                                    been
+                                    the
+                                    industry's
+                                    standatext ever since when an unknown printer.
+                                </p>
+                            </div>
+                            <div class="mt-5 me-5">
+                                <h1>Sudarshan Thakur </h1>
+                                <p>Lorem Ipsum is simply dummy text of the typesetting industry. Lorem Ipsum has
+                                    been
+                                    the
+                                    industry's
+                                    standatext ever since when an unknown printer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex mx-lg-5 px-lg-5 mt-5 mt-lg-0">
+                        <button class="btn"><img src="image/facebook-fill.png" class="img-fluid"></button>
+                        <div class="vr"></div>
+                        <button class="btn"><img src="image/instagram-fill.png" class="img-fluid"></button>
+                        <div class="vr"></div>
+                        <button class="btn"><img src="image/twitter-fill.png" class="img-fluid"></button>
+                        <div class="vr"></div>
+                        <button class="btn"><img src="image/youtube-fill.png" class="img-fluid"></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="about-4" >
+            <div class="container d-flex flex-row ">
+                <img class="m-lg-5 m-4" src="image/Lineline.png">
+                <h2 class="mt-lg-4 mt-2">OUR SERVICE</h2>
+            </div>
+            <div class=" d-lg-flex col-lg-10 container mb-5">
+                <div class="container col-10 col-lg-5 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+                <div class="container col-lg-5 col-10 mt-5 mt-lg-0 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-lg-flex col-lg-10 container mb-5">
+                <div class="container col-10 col-lg-5 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+                <div class="container col-lg-5 col-10 mt-5 mt-lg-0 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-lg-flex col-lg-10 container mb-5">
+                <div class="container col-10 col-lg-5 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+                <div class="container col-lg-5 col-10 mt-5 mt-lg-0 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-lg-flex col-lg-10 container mb-5">
+                <div class="container col-10 col-lg-5 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+                <div class="container col-lg-5 col-10 mt-5 mt-lg-0 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-lg-flex col-lg-10 container mb-5">
+                <div class="container col-10 col-lg-5 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+                <div class="container col-lg-5 col-10 mt-5 mt-lg-0 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-lg-flex col-lg-10 container mb-5">
+                <div class="container col-10 col-lg-5 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+                <div class="container col-lg-5 col-10 mt-5 mt-lg-0 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-lg-flex col-lg-10 container mb-5">
+                <div class="container col-10 col-lg-5 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+                <div class="container col-lg-5 col-10 mt-5 mt-lg-0 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-lg-flex col-lg-10 container mb-5">
+                <div class="container col-10 col-lg-5 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+                <div class="container col-lg-5 col-10 mt-5 mt-lg-0  p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-lg-flex col-lg-10 container pb-5">
+                <div class="container col-10 col-lg-5 p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+                <div class="container col-lg-5 col-10 mt-5 mt-lg-0  p-2 rounded-3 bg-white">
+                    <div>
+                        <img src="image/Ellipse 41about.png">
+                    </div>
+                    <div>
+                        <h4>Organization Capacity Assessment & Development. </h4>
+                        <p>Lorem Ipsum is simply dummy text of the industry. Lorem Ipsum has been the industry's
+                            standatext
+                            ever since when unknown printer.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="container d-flex flex-column flex-lg-row  align-items-center text-center">
+                <div class="container px-lg-5 px-lg-0">
+                    <img class="img-fluid mt-5" src="image/Logo (1).png" alt="logo">
+                </div>
+                <div class="container d-flex  justify-content-center p-lg-5">
+                    <div>
+                        <ul class="list-unstyled container px-lg-5">
+                            <li>Home</li>
+                            <li>About us</li>
+                            <li>Team</li>
+                            <li>What we do</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled container px-lg-5">
+                            <li>More</li>
+                            <li>Projects</li>
+                            <li>Events</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled container px-lg-5">
+                            <li>Connect</li>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Linkdeln</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container  mt-lg-5 px-2 pb-5 p-lg-0">
+                    <div>
+                        <h2>Subscribe to get latest updates</h2>
+                    </div>
+                    <div  class="d-md-block d-flex flex-column align-items-center">
+                        <input class="btn bg-white text-dark mb-md-0 mb-3" type="email" id="email" name="email"  placeholder="Your email">
+                        <button class="btn bg-white ">Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </main>
+
+</body>

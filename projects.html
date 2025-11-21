@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Home Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <script>
+        function opensidebar() {
+            document.getElementById("side").style.display = "block";
+            document.getElementById("body").style.display = "none";
+        }
+        function closesidebar() {
+            document.getElementById("side").style.display = "none";
+            document.getElementById("body").style.display = "block";
+        }
+
+    </script>
+    <div class="side" id="side">
+        <div>
+            <img onclick="closesidebar()" src="image/Frame 3925closebtn.png" alt="close-btn">
+        </div>
+        <div class="">
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="index.html">Home</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="about.html">About Us</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="projects.html">Our Projects</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="events.html">Live Events</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="teams.html">Teams</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="contact.html">Contact Us</a>
+            <a class="d-flex flex-column align-items-center text-decoration-none text-dark mb-5 fs-2 fw-bolder cursor-pointer ms-5 mt-5"
+                href="join.html">Join Us</a>
+        </div>
+    </div>
+    <main id="body">
+         <div class=" sticky-top  bg-white">
+            <div class="container d-flex flex-row justify-content-between px-3 ">
+                <div class="w-150 h-80">
+                    <img src="image/Logo (1).png" class="img-fluid">
+                </div>
+                <div class="overflow-hidden mt-3 d-xl-block d-none">
+                    <a class="float-start d-block media-d-none text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="index.html">Home</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="about.html">About Us</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="projects.html">Our Projects</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="events.html">Live Events</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="teams.html">Teams</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        href="contact.html">Contact Us</a>
+                    <a class="float-start d-block text-center px-3 py-2 mt-3 text-decoration-none fs-5 font-weight-bold text-dark me-4"
+                        class="join" href="join.html">
+                        <img src="image/Nav button.png" alt="join us">
+                    </a>
+                </div>
+                <div class="responsive d-xl-none mt-4 ">
+                    <div class="icon">
+                        <button class="icon  btn " onclick="opensidebar()">
+                            <img src="image/Hamburger.png" alt="Hamburger" class="img-fluid">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects-1">
+            <div>
+                <div class="container d-flex flex-row ">
+                    <img class="m-lg-5 m-4" src="image/Lineline.png">
+                    <h2 class="mt-lg-4 mt-2">OUR PROJECTS</h2>
+                </div>
+                <div class="container me-2 text-danger">
+                    <h2>ABOUT</h2>
+                </div>
+                <div class="container d-xl-flex flex-xl-row ">
+                    <p class="col-lg-4 m-lg-5 px-5 text-center">INDA aims to democratize information through the radio, supplemented
+                        with a
+                        strong and sustained on-ground community engagement. In places where the radio does not reach,
+                        SMART uses narrowcasting to provide information at the doorstep. The radio station is run by the
+                        members of the community itself, thereby creating a sense of ownership and has earned
+                        credibility within the region and trust of the people.</p>
+                    <div class="container px-5 mx-lg-5 pb-2">
+                        <img class="img-fluid " src="image/Our ProjectPROJECT.png" alt="about image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="container">
+                <div class=" container d-flex flex-row ">
+                    <img class="my-5" src="image/Lineline.png">
+                    <h2 class="mt-lg-4 mt-4 mx-2">CURRENT PROJECTS</h2>
+                </div>
+                <div class="row container px-lg-5 ">
+                    <div class="container box p-lg-5 mx-lg-5 mx-2 col-md-3 col-5 shadow  mb-5"> <a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                        </a></div>
+                    <div class="container box p-lg-5 mx-lg-5 shadow col-md-3 col-5 mb-5 "><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                    </a></div>
+                    <div class="container box p-5 mx-5 shadow d-none d-lg-block col-md-3 mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                    </a></div>
+                </div>
+                <div class="row container px-lg-5">
+                    <div class="container box p-lg-5 mx-lg-5 mx-2 shadow col-md-3  col-5 mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                    </a></div>
+                    <div class="container p-lg-5 mx-lg-5 shadow  mb-5  col-md-3 col-5 box"><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                   </a> </div>
+                    <div class="container p-5 mx-5 shadow d-none d-lg-block mb-5 col-md-3 box"><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                   </a> </div>
+                </div>
+                <div class="row container px-lg-5">
+                    <div class="container col-md-3 p-lg-5 mx-lg-5 mx-2 shadow box col-5 mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                   </a> </div>
+                    <div class="container col-md-3 p-lg-5 mx-lg-5 shadow box col-5 mb-5 "><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                   </a> </div>
+                    <div class="container col-md-3 p-5 mx-5 shadow d-none d-lg-block box mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                    </a></div>
+                </div>
+                <div class="row container px-lg-5">
+                    <div class="container col-md-3 p-lg-5 mx-lg-5 mx-2 shadow box col-5  mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                   </a> </div>
+                    <div class="container col-md-3 p-lg-5 mx-lg-5 shadow box col-5 mb-5 "><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                    </a></div>
+                    <div class="container col-md-3 p-5 mx-5 shadow d-none d-lg-block box mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                        <img src="image/🌄 Event Imageprojetct.png" class="img-fluid" alt="event">
+                        <h4 class="aarambh">Aarambh</h4>
+                        <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                            focuses on...</p>
+                    </a></div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="projects-2">
+            <div class="container d-lg-flex p-5 align-items-center">
+                <img src="image/image 11project.png" class="img-fluid">
+                <p class="p-lg-5 text-center">Women suffer violence of all forms and at all stages in their lives-from foetal stage
+                    where they are
+                    susceptible to death through sex selection; during childhood when they are often undernourished,
+                    uneducated, generally neglected, and burdened with household responsibilities; during early married
+                    life when they are vulnerable to harassment, injury, have no control over their sexual and
+                    reproductive health; and throughout their lives when they are subjected to physical beating and
+                    assault as well as emotional humiliation and degradation. Women in the country are highly vulnerable
+                    because of poor quality of life and rampant poverty.</p>
+
+            </div>
+            <div >
+                <div class="container">
+                    <div class=" container d-flex flex-row ">
+                        <img class="my-5" src="image/Lineline.png">
+                        <h2 class="mt-lg-4 mt-4 mx-2">PAST PROJECTS</h2>
+                    </div>
+                    <div class="row container px-lg-5 ">
+                        <div class="container col-md-3 col-5 box p-lg-5 mx-lg-5 mx-2 shadow mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p >UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                       </a> </div>
+                        <div class="container col-md-3 col-5 box p-lg-5 mx-lg-5 shadow mb-5 "><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0"  alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                       </a> </div>
+                        <div class="container col-md-3 box p-5 mx-5 shadow d-none d-lg-block mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid " alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                       </a> </div>
+                    </div>
+                    <div class="row container px-lg-5">
+                        <div class="container box col-md-3 col-5 p-lg-5 mx-lg-5 mx-2 shadow mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                        </a></div>
+                        <div class="container col-md-3 col-5 p-lg-5 mx-lg-5 shadow  mb-5   box"><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                       </a> </div>
+                        <div class="container col-md-3 col-5 p-5 mx-5 shadow d-none d-lg-block mb-5 box"><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid" alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                       </a> </div>
+                    </div>
+                    <div class="d-flex container px-lg-5">
+                        <div class="container col-md-3 col-5 p-lg-5 mx-lg-5 mx-2 shadow box mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                        </a></div>
+                        <div class="container col-md-3 col-5 p-lg-5 mx-lg-5 shadow box mb-5 "><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0"  alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                        </a></div>
+                        <div class="container col-md-3 col-5 p-5 mx-5 shadow d-none d-lg-block  box mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid" alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                       </a> </div>
+                    </div>
+                    <div class="row container px-lg-5">
+                        <div class="container col-md-3 col-5 p-lg-5 mx-lg-5 mx-2 shadow box mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                       </a> </div>
+                        <div class="container col-md-3 col-5 p-lg-5 mx-lg-5 shadow box mb-5 "><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid py-3 py-lg-0" alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                       </a> </div>
+                        <div class="container col-md-3 col-5 p-5 mx-5 shadow d-none d-lg-block  box mb-5"><a class="text-decoration-none text-dark" href="aarambh.html">
+                            <img src="image/🌄 Event Imageprojetct.png" class="img-fluid" alt="event">
+                            <h4 class="aarambh">Aarambh</h4>
+                            <p>UNICEF’s programme on Early Childhood Development (ECD) or Aarambh is an intervention that
+                                focuses on...</p>
+                       </a> </div>
+                    </div>
+                </div>
+    
+    
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container d-flex flex-column flex-lg-row  align-items-center text-center">
+                <div class="container px-lg-5 px-lg-0">
+                    <img class="img-fluid mt-5" src="image/Logo (1).png" alt="logo">
+                </div>
+                <div class="container d-flex  justify-content-center p-lg-5">
+                    <div>
+                        <ul class="list-unstyled container px-lg-5">
+                            <li>Home</li>
+                            <li>About us</li>
+                            <li>Team</li>
+                            <li>What we do</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled container px-lg-5">
+                            <li>More</li>
+                            <li>Projects</li>
+                            <li>Events</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="list-unstyled container px-lg-5">
+                            <li>Connect</li>
+                            <li>Facebook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Linkdeln</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container  mt-lg-5 px-2 pb-5 p-lg-0">
+                    <div>
+                        <h2>Subscribe to get latest updates</h2>
+                    </div>
+                    <div  class="d-md-block d-flex flex-column align-items-center">
+                        <input class="btn bg-white text-dark mb-md-0 mb-3" type="email" id="email" name="email"  placeholder="Your email">
+                        <button class="btn bg-white ">Subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </main>
+</body>
